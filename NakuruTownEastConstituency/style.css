@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+/**Navbar-section**/
+.navbar{
+    background-color: rgb(163, 8, 8);
+    padding: 3% 10% 1% 10%;
+    border-top: 4px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-brand h3{
+    color: white;
+    border: 3px solid rgb(98, 212, 136);
+    padding: 7px;
+    font-size: 20px;
+    margin-top: 1%;
+}
+.nav-item{
+    margin: 2% ;
+}
+.nav-link:hover{
+    padding-bottom: 8px;
+    border-bottom: 5px solid rgb(98, 212, 136);
+    cursor: pointer;
+}
+.current{
+    padding-bottom: 8px;
+    border-bottom: 5px solid rgb(98, 212, 136);
+    cursor: pointer;
+}
+
+/**Carousel Section**/
+.carousel-item{
+    height: 500px;
+    background-color: black;
+    border-radius: auto 10px;
+    position: relative;
+    margin-top: 0.1%;
+    border-top: 4px solid green;
+}
+.carousel-caption p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 19px;
+}
+.carousel-item img{
+    height: 300px;
+    opacity: 0.6;
+}
+@media only screen and (max-width: 500px){
+    .carousel-item img{
+        height: 220px;
+    }
+}
+
+/**Members Section**/
+.members{
+    background-color: rgb(7, 150, 54);
+    margin-top: 0.3%;
+    border-top: 4px solid red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.members h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2%;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+.info{
+    margin-left: 7%;
+}
+
+.memb img{
+    margin: 3% 10% 5% auto;
+    width: 70%;
+    
+}
+@media only screen and (max-width: 500px){
+    .memb img{
+        border-radius: 50%;
+        width: 60%;
+    }
+    .info{
+        margin-left: 20%;
+    }
+    
+}
+
+.memb b{
+    color: black;
+    font-size: 15px;
+}
+.memb p{
+    color: white;
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+/**Staff Section**/
+.staff{
+    background-color: rgb(163, 8, 8);
+    margin-top: 0.3%;
+    border-top: 4px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.staff h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 2%;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+.info{
+    margin-left: 7%;
+}
+
+.staff-memb img{
+    margin: 3% 20% 5% auto;
+    width: 50%;
+    border-radius: 5%;
+    border: 2px solid green;
+    
+}
+@media only screen and (max-width: 500px){
+    .staff-memb img{
+        border-radius: 50%;
+        width: 60%;
+    }
+    .info{
+        margin-left: 20%;
+    }
+    
+}
+
+.staff-memb b{
+    color: black;
+    font-size: 15px;
+}
+.staff-memb p{
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+
+/**Subscription Section**/
+.subscribe{
+    background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0.2%;
+    border-top: 4px solid black;
+}
+.heading{
+    text-align: center;
+    margin-top: 2%;
+    font-weight: bold;
+}
+@media only screen and (max-width: 500px){
+    .subscribe i{
+        display: none;
+    }
+    
+}
+.form-control{
+    margin: 10px;
+}
+
+/****Footer Section******/
+.footer{
+    background-color: black;
+    border-top: 4px solid green;
+}
+.icon{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.link{
+    margin: 17px;
+}
+.copyright{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.link:hover{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+/**Project Section**/
+.project{
+    background-color: rgb(7, 150, 54);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 0.2%;
+    border-top: 3px solid black;
+    overflow-x: hidden;
+}
+.proTitle{
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px white;
+}
+.proj{
+    margin-left: 1%;
+}
+@media only screen and (min-width: 768px){
+    .proj{
+        margin-left: 20%;
+    }  
+}
+@media only screen and (min-width: 1000px){
+    .proj{
+        margin-left: 8%;
+    }
+}
+.projOne{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./Images/proj-1.jpg);
+    margin: 10px 25px 15px 15px;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    
+}
+.projOne:hover{
+    transform: rotateX(10deg);
+}
+.projTwo{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./Images/proj-2.jpg);
+    margin: 10px 25px 15px 15px;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    
+}
+.projTwo:hover{
+    transform: rotateX(10deg);
+}
+.projThree{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./Images/proj-3.jpg);
+    margin: 10px 25px 15px 15px;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    
+}
+.projThree:hover{
+    transform: rotateX(10deg);
+}
+.projOne h1,.projTwo h1,.projThree h1{
+    color: white;
+    text-align: center;
+    margin-top: 50%;
+    margin-bottom: 2%;
+}
+.projOne a, .projTwo a,.projThree a{
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+/**Offcanvas Section**/
+.details{
+    background-color: rgb(7, 150, 54);
+    height: 570px;
+    margin-top: 7%;
+    border-top: 3px solid red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.offcanvas-title{
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+}
+.proj-image img{
+    margin-left: 15%;
+    width: 65%;
+    margin-top: 2%;
+    opacity: 0.7;
+}
+.proj-info{
+    margin-top: 3%;
+}
+.proj-info p{
+    margin-left: -17%;
+    font-size: 19px;
+    color: white;
+}
+@media only screen and (max-width: 500px){
+    .proj-info p{
+        margin-left: 0%;
+    }  
+}
+
+/**Completed Projects**/
+.complete{
+    background-color: whitesmoke;
+    margin-top: 0.2%;
+    border-top: 2px solid black;
+}
+.more-proj img{
+    margin-left: 18%;
+    margin-top: 2%;
+    border: 1px solid green;
+}
+.more-proj p{
+    margin-left: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: black;
+    margin-top: 1%;
+}
+
+/**Service Section**/
+.service{
+    margin-top: 0.2%;
+    background-color: whitesmoke;
+    border-top: 4px solid green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.title{
+   text-align: center;
+}
+.title h1{
+    font-family: fantasy;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px red;
+    text-decoration: underline;
+}
+.title h2{
+    font-family: fantasy;
+    letter-spacing: 1px;
+    text-decoration: underline;
+    color: rgb(20, 117, 20);
+    text-shadow: 1px 1px black;
+}
+.title p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+thead{
+    text-align: center;
+}
+
+/**Contact intro Section**/
+.conts{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(./Images/flamingo.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 0.2%;
+    border-top: 3px solid green;
+}
+.conts-title{
+    color: white;
+    text-align: center;
+    margin-top: 12%;
+    text-shadow: 1px 1px red;
+}
+@media only screen and (max-width: 500px){
+    .conts-title{
+        margin-top: 50%;
+    }
+}
+.icons{
+    margin-top: 2%;
+}
+.links{
+    margin: 1% 1.5%;
+}
+.address{
+    background-color: whitesmoke;
+    border-top: 3px solid green;
+    margin-top: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.address h1{
+    text-align: center;
+    margin-top: 2%;
+}
+.cont-detail img{
+    margin: 10% 20%;
+    width: 40%;
+}
+.cont-detail h1{
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px red;
+}
+.location{
+    background-color: rgb(46, 110, 46);
+    border-top: 3px solid red;
+    margin-top: 0.5%;
+}
+.pic img{
+    width: 90%;
+    margin-left: -2%;
+}
+@media only screen and (max-width: 500px){
+    .pic img{
+        margin-left: 5%;
+    }
+}
+.det img{
+    width: 13%;
+    
+}
+.det h1{
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    font-size: 40px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+.det p{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/**About Section**/
+.about{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(./Images/about.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 0.2%;
+    border-top: 3px solid green;
+    color: white;
+}
+.about h1{
+    text-align: center;
+    margin-top: 2%;
+    text-shadow: 1px 1px green;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    color: white;
+}
+.about h2{
+    text-align: center;
+    text-shadow: 1px 1px green;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+.about p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    .about p{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+}
+.wards{
+    margin-top: 1%;
+}
+.wards h1{
+    text-align: center;
+    margin-top: 1%;
+    text-decoration: underline;
+    text-shadow: 1px 1px red;
+}
+.abouts img{
+    width: 70%;
+    border: 1px solid red;
+    margin: 10%;
+    border-radius: 50%;
+}
+.abouts h2{
+    text-align: center;
+    color: red;
+    font-size: 19px;
+}
+
+/**Thanks Section**/
+.thank h1{
+    margin-top: 5%;
+    color: black;
+    font-family: cursive;
+    text-align: center;
+    font-weight: bold;
+}
+.thank img{
+    width: 48%;
+    margin-left: 20%;
+}
