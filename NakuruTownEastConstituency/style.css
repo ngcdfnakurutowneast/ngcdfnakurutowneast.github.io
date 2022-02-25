@@ -59,14 +59,12 @@ body{
 }
 
 /**FAM SECTION**/
-
 .FAM h3{
     text-align: center;
     font-family: fantasy;
     color: black;
     letter-spacing: 2px;
     margin-top: 2%;
-    
 }
 .FAM span{
     border-bottom: 2px solid green;
@@ -92,7 +90,6 @@ body{
 .ngFam i{
     color: rgba(255, 0, 0, 0.863);
 }
-
 
 /**Members Section**/
 .members{
