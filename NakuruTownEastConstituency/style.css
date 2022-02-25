@@ -58,6 +58,7 @@ body{
     }
 }
 
+
 /**Members Section**/
 .members{
     background-color: rgb(7, 150, 54);
@@ -103,30 +104,27 @@ body{
 }
 
 /**FAM SECTION**/
-
 .FAM h3{
     text-align: center;
     font-family: fantasy;
     color: black;
     letter-spacing: 2px;
     margin-top: 2%;
-    
 }
 .FAM span{
     border-bottom: 2px solid green;
     padding-top: 3px;
 }
 .ngFam img{
-    
-    margin-left: 39%;
+    width: 20%;
+    margin-left: 38%;
     margin-top: 3%;
-    width:25%;
 }
 @media screen and (max-width: 600px) {
     .ngFam img{
         margin-left: 20%;
         width: 50%;
-        border-radius: 50%;
+        border-radius:50%;
     }
     
 }
