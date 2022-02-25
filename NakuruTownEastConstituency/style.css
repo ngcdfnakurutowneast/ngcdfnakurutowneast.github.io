@@ -102,6 +102,44 @@ body{
     font-size: 12px;
 }
 
+/**FAM SECTION**/
+
+.FAM h3{
+    text-align: center;
+    font-family: fantasy;
+    color: black;
+    letter-spacing: 2px;
+    margin-top: 2%;
+    
+}
+.FAM span{
+    border-bottom: 2px solid green;
+    padding-top: 3px;
+}
+.ngFam img{
+    
+    margin-left: 39%;
+    margin-top: 3%;
+    width:25%;
+}
+@media screen and (max-width: 600px) {
+    .ngFam img{
+        margin-left: 20%;
+        width: 50%;
+        border-radius: 50%;
+    }
+    
+}
+.ngFam p{
+    text-align: center;
+    color: black;
+    margin-top: 1%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ngFam i{
+    color: rgba(255, 0, 0, 0.863);
+}
+
 /**Staff Section**/
 .staff{
     background-color: rgb(163, 8, 8);
